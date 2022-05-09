@@ -1,0 +1,60 @@
+.nav {
+    // background-color: yellow;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0px;
+
+
+
+    #{&}-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: red;
+        // transition: 0.5s ease-in;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: $color-one;
+            transition: 0.5s ease-in;
+        }
+    }
+}
+
+.Intro {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    // transition: 1s ease-out;
+
+    #{&}-name {
+        // background: blue;
+        width: 50rem;
+        padding-left: 10%;
+        padding-top: 15%;
+        line-height: 3rem;
+        font-size: 1.5em;
+        font-family: 'Franklin Gothic Medium';
+        
+        }
+    }
+
+    .Intro-name1 {
+        color: $color-one;
+        // background: white;
+        width: 20rem;
+        font-size: 3rem;
+    }
+
+    .body-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+
+ 
